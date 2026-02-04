@@ -20,8 +20,8 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t shreesh-hub/react-docker-devops:latest .
+        run: docker build -t shreesh644/react-docker-devops:latest .
 
       - name: Push Docker image
-        run: docker push shreesh-hub/react-docker-devops:latest
+        run: docker push shreesh644/react-docker-devops:latest
 
